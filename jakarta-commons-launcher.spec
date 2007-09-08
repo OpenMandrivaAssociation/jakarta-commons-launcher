@@ -6,7 +6,7 @@
 
 Name:           %{name}
 Version:        1.1
-Release:        %mkrel 1.2
+Release:        %mkrel 1.3
 Epoch:          0
 Summary:        Cross-platform Java application launcher
 License:        Apache License
