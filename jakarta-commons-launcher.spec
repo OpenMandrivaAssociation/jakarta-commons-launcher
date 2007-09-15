@@ -6,7 +6,7 @@
 
 Name:           %{name}
 Version:        1.1
-Release:        %mkrel 1.3
+Release:        %mkrel 1.4
 Epoch:          0
 Summary:        Cross-platform Java application launcher
 License:        Apache License
@@ -17,8 +17,6 @@ URL:            http://jakarta.apache.org/commons/launcher/
 Source0:        http://archive.apache.org/dist/jakarta/commons/launcher/source/%{short_name}-%{version}-src.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 %if %{gcj_support}
-Requires(post): java-gcj-compat
-Requires(postun): java-gcj-compat
 BuildRequires:  java-gcj-compat-devel
 %else
 Buildarch:      noarch
