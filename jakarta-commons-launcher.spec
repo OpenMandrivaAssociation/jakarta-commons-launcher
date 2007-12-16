@@ -6,7 +6,7 @@
 
 Name:           %{name}
 Version:        1.1
-Release:        %mkrel 1.4
+Release:        %mkrel 1.5
 Epoch:          0
 Summary:        Cross-platform Java application launcher
 License:        Apache License
@@ -22,7 +22,7 @@ BuildRequires:  java-gcj-compat-devel
 Buildarch:      noarch
 %endif
 BuildRequires:  ant
-BuildRequires:  jpackage-utils >= 0:1.5.30
+BuildRequires:  java-rpmbuild >= 0:1.5.30
 
 %description
 Commons-launcher eliminates the need for a batch or shell script to 
