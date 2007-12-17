@@ -15,7 +15,6 @@ Group:          Development/Java
 #Distribution:   JPackage
 URL:            http://jakarta.apache.org/commons/launcher/
 Source0:        http://archive.apache.org/dist/jakarta/commons/launcher/source/%{short_name}-%{version}-src.tar.bz2
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 %if %{gcj_support}
 BuildRequires:  java-gcj-compat-devel
 %else
