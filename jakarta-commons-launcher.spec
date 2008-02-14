@@ -11,6 +11,7 @@ Epoch:          0
 Summary:        Cross-platform Java application launcher
 License:        Apache License
 Group:          Development/Java
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 #Vendor:         JPackage Project
 #Distribution:   JPackage
 URL:            http://jakarta.apache.org/commons/launcher/
