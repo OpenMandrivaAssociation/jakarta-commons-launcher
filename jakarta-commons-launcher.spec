@@ -6,7 +6,7 @@
 Summary:	Cross-platform Java application launcher
 Name:		jakarta-%{short_name}
 Version:	1.1
-Release:	2
+Release:	3
 License:	Apache License
 Group:		Development/Java
 Url:		http://jakarta.apache.org/commons/launcher/
