@@ -9,7 +9,7 @@ Version:	1.1
 Release:	9
 License:	Apache License
 Group:		Development/Java
-Url:		http://jakarta.apache.org/commons/launcher/
+Url:		https://jakarta.apache.org/commons/launcher/
 Source0:	http://archive.apache.org/dist/jakarta/commons/launcher/source/%{short_name}-%{version}-src.tar.bz2
 %if !%{gcj_support}
 Buildarch:	noarch
